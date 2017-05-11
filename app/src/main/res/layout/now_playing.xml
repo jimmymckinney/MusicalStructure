@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/navigation_menu"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/black"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Song Title"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  -  "
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Artist"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="24dp"
+            android:layout_gravity="end"
+            android:layout_weight="1"
+            android:src="@drawable/ic_skip_previous_white_48dp" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="24dp"
+            android:layout_gravity="end"
+            android:layout_weight="1"
+            android:src="@drawable/ic_play_circle_filled_white_48dp" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="24dp"
+            android:layout_gravity="end"
+            android:layout_weight="1"
+            android:src="@drawable/ic_skip_next_white_48dp" />
+    </LinearLayout>
+
+</LinearLayout>
