@@ -9,14 +9,19 @@
         This app is a language learning app and features music of various different languages.
         It will have features for singing karaoke style to check pronunciation.
         There will be features that allow for users to also do fill in the blanks for words from songs to test listening comprehension.
-        The home screen is where users will be able to browse music collections and change their language settings.</string>
+        The home screen is where users will be able to browse music collections and change their language settings.
+        I may use the YouTube API to pull in music videos to embed similar to lyricstraining.com.</string>
 
     <string name="library_activity_text_view">
         This is the music library where songs can be stored for later use.
         Users can easily access favorite songs to either listen to, sing-a-long to using Karaoke mode,
-        or fill in lyrics to in order to test listening comprehension.</string>
+        or fill in lyrics to in order to test listening comprehension.
+        I would use the YouTube API to bring in music videos.
+        However, if we had the rights to any music, we would likely stream music from our own servers.
+        I could use the Picasso library to easily load and display images such as album artwork.</string>
 
     <string name="search_activity_text_view">
         This activity will contain a search bar and the ability to search through the entire database of music.
-        Users will easily be able to select songs to play or add to their playlists in their music library.</string>
+        Users will easily be able to select songs to play or add to their playlists in their music library.
+        Again I would likely be using some music API similar to YouTube and possibly a library such as Picasso to store images.</string>
 </resources>
